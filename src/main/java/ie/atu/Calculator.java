@@ -11,6 +11,7 @@ public class Calculator {
     }
 
     public static void add() {
+        System.out.println("Addition");
         System.out.println("Please enter your first number: ");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -25,6 +26,7 @@ public class Calculator {
 
     public static void multiply()
     {
+        System.out.println("Multiplication");
         System.out.println("Please enter your first number: ");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -40,20 +42,22 @@ public class Calculator {
 
 public static void divide()
     {
+        System.out.println("Division");
         System.out.println("Please enter your first number: ");
         Scanner inputs = new Scanner(System.in);
-        int firstNumber = inputs.nextInt();
+        float firstNumber = inputs.nextInt();
 
         System.out.println("Please enter your second number: ");
-        int secondNumber = inputs.nextInt();
+        float secondNumber = inputs.nextInt();
 
-        int ans = firstNumber / secondNumber;
+        float ans = firstNumber / secondNumber;
 
         System.out.println("The division of the two numbers is: " + ans);
     }
 
     public static void subtract()
     {
+        System.out.println("Subtraction");
         System.out.println("Please enter your first number: ");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
